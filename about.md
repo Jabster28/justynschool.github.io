@@ -4,12 +4,11 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+A passionate programmer currently learning advances JavaScript and Python
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[justynboyer@gmail.com](mailto:justynboyer@gmail.com)
