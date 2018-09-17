@@ -58,15 +58,11 @@ published: true
   </tr>
   <tr>
     <td>What could have gone better in your learning?</td>
-  </tr>
-  <tr>
     <td>I could have paid attention to the fact that I misclicked and copied a website that had the image I wanted and not the image link itself</td>
     <td></td>
   </tr>
   <tr>
     <td>What changes do you need to make to improve your learning next time?</td>
-  </tr>
-  <tr>
     <td>Pay attention to the links I copy and don't put the wrong link in the wrong spot</td>
     <td></td>
   </tr>
