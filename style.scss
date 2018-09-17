@@ -335,8 +335,11 @@ nav a {
     color: white;
 }
 table, td, tr {
-  border: 1px solid white;
   background-color: #ee6e73;
+  border-radius: 5px;
+}
+td, tr {
+  border: 1px solid white;
 }
 .postContent {
   line-height: 56px;
