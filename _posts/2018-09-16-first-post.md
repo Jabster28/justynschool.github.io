@@ -34,7 +34,6 @@ published: true
 <table>
   <tr>
     <td>How did you use your learning habits this week?</td>
-    <td></td>
   </tr>
   <tr>
     <td>Persevering</td>
