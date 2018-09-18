@@ -1,4 +1,5 @@
-$(document).ready() {
+$(document).ready(function() {
+  console.log("jQuery Ready");
   (document.getElementsByTagName('table')[0]).className = 'notPostContent';
   for (i = 0; i < document.getElementsByTagName('td').length; i++) {
     document.getElementsByTagName('td')[i].className = 'notPostContent';
@@ -12,4 +13,4 @@ $(document).ready() {
     console.log("not on index")
   }
 
-}
+});
