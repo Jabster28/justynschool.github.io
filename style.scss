@@ -11,9 +11,9 @@ html {
 }
 
 body {
-  background: white;
-  font: 18px/1.4 helvetica;
-  color: darkGray;
+  background: $white;
+  font: 18px/1.4 $helvetica;
+  color: $darkGray;
 }
 
 .container {
@@ -29,8 +29,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: helveticaNeue;
-  color: darkGray;
+  font-family: $helveticaNeue;
+  color: $darkerGray;
   font-weight: bold;
   line-height: 1.7;
   margin: 1em 0 15px;
@@ -58,7 +58,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: gray;
+  color: $gray;
 }
 
 p {
@@ -66,13 +66,13 @@ p {
 }
 
 a {
-  color: blue;
+  color: $blue;
   text-decoration: none;
   cursor: pointer;
 
   &:active,
   &:hover {
-    color: blue;
+    color: $blue;
   }
 }
 
@@ -123,17 +123,17 @@ img {
 
 .date {
   font-style: italic;
-  color: gray;
+  color: $gray;
 }
 // Specify the color of the selection
 ::-moz-selection {
-  color: black;
-  background: lightGray;
+  color: $black;
+  background: $lightGray;
 }
 
 ::selection {
-  color: black;
-  background: lightGray;
+  color: $black;
+  background: $lightGray;
 }
 // Nicolas Gallagher's micro clearfix hack
 // http://nicolasgallagher.com/micro-clearfix-hack/
@@ -160,7 +160,7 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid lightGray;
+  border-bottom: 1px solid $lightGray;
   @include mobile {
     text-align: center;
   }
@@ -193,9 +193,9 @@ img {
 
 .site-name {
   margin: 0;
-  color: darkGray;
+  color: $darkGray;
   cursor: pointer;
-  font-family: helveticaNeue;
+  font-family: $helveticaNeue;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -203,7 +203,7 @@ img {
 
 .site-description {
   margin: -5px 0 0;
-  color: gray;
+  color: $gray;
   font-size: 16px;
   @include mobile {
     margin: 3px 0;
@@ -213,7 +213,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: helveticaNeue;
+  font-family: $helveticaNeue;
   font-size: 18px;
   @include mobile {
     float: none;
@@ -224,13 +224,13 @@ nav {
 
   a {
     margin-left: 20px;
-    color: darkGray;
+    color: $darkGray;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
     @include mobile {
       margin: 0 10px;
-      color: blue;
+      color: $blue;
     }
   }
 }
@@ -240,7 +240,7 @@ nav {
 
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid lightGray;
+  border-bottom: 1px solid $lightGray;
 }
 
 .posts > .post:last-child {
@@ -251,9 +251,9 @@ nav {
 .post {
   blockquote {
     margin: 1.8em 0.8em;
-    border-left: 2px solid gray;
+    border-left: 2px solid $gray;
     padding: 0.1em 1em;
-    color: gray;
+    color: $gray;
     font-size: 22px;
     font-style: italic;
   }
@@ -272,7 +272,7 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: lightGray;
+  background-color: $lightGray;
 }
 
 footer {
@@ -351,8 +351,8 @@ tr {
 
 .notPostContent {
   box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.22), 0 0 0 0 rgba(0, 0, 0, 0.21);
-  border-radius: 0px;
-  border: 0px solid;
+  border-radius: 0;
+  border: 0 solid;
   padding: 10px;
   background-color: transparent;
 }
