@@ -4,15 +4,15 @@ layout: default
 
 <div class="posts">
   {% for post in site.posts %}
-    <article class="post  green lighten-2 card">
+    <article class="post green card">
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-      <div class="entry">
+      <div class="entry" id="notPostContent">
         {{ post.excerpt }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}#disqus_thread" class="read-more">Read More</a>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
 </div>
